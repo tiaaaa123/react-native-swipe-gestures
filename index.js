@@ -3,7 +3,7 @@
 import React from 'react';
 import {PanResponder, ScrollView} from 'react-native';
 
-const swipeDirections = {
+const SWIPE_DIRECTION = {
   SWIPE_UP: 'SWIPE_UP',
   SWIPE_DOWN: 'SWIPE_DOWN',
 };
