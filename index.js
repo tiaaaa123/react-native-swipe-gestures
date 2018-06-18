@@ -80,7 +80,7 @@ class GestureRecognizer extends React.Component {
 
   render() {
     return (
-      <ScrollView bounces={false} {...this.panResponder.panHandlers}>
+      <ScrollView bounces={false} {...this.props} {...this.panResponder.panHandlers}>
         {this.props.children}
       </ScrollView>
     );
